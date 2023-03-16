@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <style>
+    body{
+
+        background-image: url("https://wallpapercave.com/wp/wp7818377.jpg");
+    }
+</style>
+        <meta charset="UTF-8">
+        <title>Responsive Registaration Form</title>
+        <link rel="stylesheet" href="./responsiveRegistration.css">
+        <script type="text/javascript" lang="javascript" src="./responsiveRegistaration.js"></script>
+    </head>
+       
+    <body>
+        <h1> Simple Registaration Form: </h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-10">
+                   <h2> <label for="fname">🅵🅸🆁🆂🆃 🅽🅰🅼🅴:</label></h2>
+                </div>
+                <div class="col-90">
+                    <input type="text" id="fname" name="firstname" placeholder="Enter your first name">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <h2><label for="lname">🅻🅰🆂🆃 🅽🅰🅼🅴:</label></h2>
+                </div>
+                <div class="col-90">
+                    <input type="text" id="lname" name="lastname" placeholder="Enter your last name">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                   <h2><label for="email">🅴🅼🅰🅸🅻:</label> </h2>
+                </div>
+                <div class="col-90">
+                    <input type="email" id="email" name="email" placeholder="it should contain @,.">
+                </div></div><div class="row">
+                
+            <div class="row">
+                <div class="col-10">
+                <h2><label for="gender" required>🅶🅴🅽🅳🅴🆁:</label></h2>
+                </div>
+                <div class="col-90">
+                    <h2><input type="radio" id="male" name="gender" value="male"/>🅼🅰🅻🅴
+                    <input type="radio" id="female" name="gender" value="female"/>🅵🅴🅼🅰🅻🅴
+                </div></h2>
+            
+            
+                <input type="submit" value="Registered" onclick="SaveStudentDetails()">
+            </div>  
+        </div>
+       
+    </body>
+</html>
